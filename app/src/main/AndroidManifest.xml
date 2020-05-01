@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <manifest android:versionName="1.2" android:versionCode="12" package="com.quaap.phonefonefun" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <application android:theme="@style/AppTheme" android:supportsRtl="true" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:allowBackup="true">
+
+
+    <activity android:screenOrientation="fullSensor"
+        android:name="com.akash.phonefonefun.MainActivity">
+
+
+    <intent-filter>
+
+    <action android:name="android.intent.action.MAIN"/>
+
+    <category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+
+    <activity android:name="com.akash.phonefonefun.AboutActivity" android:parentActivityName="com.akash.phonefonefun.MainActivity"/>
+
+</application>
+
+</manifest>
