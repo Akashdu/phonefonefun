@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "25.0.3"
     defaultConfig {
-        applicationId "com.quaap.phonefonefun"
+        applicationId "com.akash.phonefonefun"
         minSdkVersion 21
         targetSdkVersion 26
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
